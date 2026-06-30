@@ -1,0 +1,96 @@
+
+body  {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+    padding-top: 217px;
+    margin-bottom: 110px;
+    letter-spacing: 10px;
+    text-align: center;
+    color:#515076
+}
+
+.product-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#A5A3B9
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    max-width: 1400px;
+    margin: 0 auto;
+    }
+
+.product-card {
+    background: #fff;
+    flex: 0 0 calc(33.333% - 24px);
+    max-width: 320px;
+    min-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    transition: 0.2s;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.product-card h2 {
+    font-size: 20px;
+    line-height: 27px;
+    color: #515076;
+    margin: 8px 0 4px;
+}
+.product-card p,
+.product-card span,
+.product-card ul li {
+    font-weight: 400;
+    font-style: regular;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    color: #515076;
+}
+.product-card b {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #515076;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    color: #515076;
+}
+
+.product-card .price-value {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    color: #515076;
+}
